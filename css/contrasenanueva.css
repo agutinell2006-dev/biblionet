@@ -1,0 +1,114 @@
+body {
+    background-color: #222222; 
+    background-image: radial-gradient(#333333 1px, transparent 1px);
+    background-size: 10px 10px;    color: #e0e0e0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 100px; 
+    box-sizing: border-box; 
+}
+.textoregistro {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+}
+.error-box {
+    width: 90%;
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid #dc3545;
+    background-color: #3e2225;
+    color: #f8d7da;
+}
+
+.formulario {
+    max-width: 350px; 
+    width: 90%;
+    padding: 40px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    margin: 50px auto; 
+}
+
+.datos_personales { display: flex; flex-direction: column; width: 100%; }
+.dato { display: flex; flex-direction: column; margin-bottom: 15px; width: 100%; }
+
+.dato label {
+    display: block;
+    margin-bottom: 8px;
+    color: #a0a0a0; 
+    font-weight: 500;
+    font-size: 16px; 
+    text-align: left;
+}
+
+.dato input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: #ffffff; 
+    border: 1px solid #444; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.dato input:focus { 
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.4);
+    outline: none;
+}
+
+.inputconojo {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.crear {
+    width: 100%;
+    background-color: #007bff; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+}
+
+.crear:hover {
+    background-color: #0056b3;
+}
+
+.enviar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.enviar2 {
+    background-color: #007bff; 
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%; 
+    transition: background-color 0.3s ease;
+}

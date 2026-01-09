@@ -1,0 +1,69 @@
+.aceitunas nav{
+align-items: center;
+text-align: center;
+margin: auto;
+display: flex;
+justify-content: space-evenly;
+}
+body{
+    margin: 25px;
+    font-family:roboto;
+    max-width: 1500px;
+    margin:auto;
+    background-color:blanchedalmond;
+}
+.textoregistro{
+    font-size: 5em;
+    text-align:center;
+}
+
+.titulo{
+    margin: auto;
+}
+.formulario{
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid rgb(177, 137, 65);
+    padding: 3%;
+    margin: 5% 20%;
+    width: 50%;
+    background-color: burlywood;
+    font-size: 30px;
+}
+.si{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#usuario {
+    width: 200px;
+    height: 17px;
+    font-size: 14px;
+    padding: 8px;
+}
+.dato [label="clasemail"]{
+    width: 100px;
+}
+
+#contraseña {
+    width: 200px;
+    height: 17px;
+    font-size: 14px;
+    padding: 8px;
+}
+#email {
+    width: 200px;
+    height: 17px;
+    font-size: 14px;
+    padding: 8px;
+}
+.enviar[type="submit"]{  
+font-size: 30px;
+padding: 15px 25px;    
+}
+.terminos{
+    margin-top: 20px;
+}
+.clasemail{
+    width:120px;
+}

@@ -1,0 +1,165 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.2em;
+    color: #007bff;
+    margin-bottom: 30px;
+    font-weight: 600;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+}
+
+.usuarios-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+}
+
+.header_caja {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr; /* Usuario=2 Correo=3 Acciones=1 */
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    text-align: left; 
+}
+
+.header_caja div:last-child {
+    text-align: center; 
+}
+
+.cajausuario {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.cajausuario:hover {
+    background-color: #e9f0f8;
+}
+
+.acciones {
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.acciones a {
+    text-decoration: none;
+    padding: 5px; 
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.1s;
+    font-size: 0.9em;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 26px; 
+    height: 26px; 
+}
+
+.modificar {
+    background-color: #007bff; 
+    color: white;
+}
+.modificar:hover {
+    background-color: #0056b3;
+}
+
+.editar-rol {
+    background-color: #ffc107; 
+    color: #333; 
+}
+.editar-rol:hover {
+    background-color: #e0a800;
+}
+
+.eliminar {
+    background-color: #dc3545; 
+    color: white;
+}
+.eliminar:hover {
+    background-color: #c82333;
+}
+
+.modificarimagen, 
+.editarrolimagen { 
+    width: 16px !important;   
+    height: 16px !important;  
+    object-fit: contain; 
+    vertical-align: middle; 
+}
+
+.dejaropinion {
+    text-align: center;
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.valoraciones {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.valoraciones textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+.valoraciones button {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.comentarios {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.comentario {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+}

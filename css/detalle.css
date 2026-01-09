@@ -1,0 +1,197 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+.detalle-container { 
+    display: flex; 
+    max-width: 900px; 
+    margin: 50px auto 30px auto; 
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    background: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2em;
+    text-decoration: none;
+    color: #999;
+    cursor: pointer;
+    line-height: 1;
+}
+.close-button:hover {
+    color: #333;
+}
+
+.detalle-imagen { 
+    flex: 0 0 250px; 
+    margin-right: 30px; 
+    position: relative;
+}
+.detalle-imagen img { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.detalle-info { 
+    flex: 1; 
+}
+.detalle-info h1 { 
+    font-size: 1.8em; 
+    margin: 0 0 5px 0; 
+    color: #222;
+}
+.detalle-info .autor { 
+    color: #555; 
+    font-size: 1.1em; 
+    margin-bottom: 15px;
+}
+
+.acciones { 
+    margin: 20px 0; 
+}
+.btn-principal { 
+    padding: 10px 20px; 
+    font-size: 1em; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    display: inline-block; 
+    text-align: center; 
+}
+.btn-prestar { 
+    background-color: #007bff; 
+    color: white; 
+    margin-right: 10px; 
+}
+.btn-vista { 
+    background-color: white; 
+    color: #007bff; 
+    border: 1px solid #007bff; 
+}
+
+.descripcion-texto { 
+    margin-top: 20px; 
+    line-height: 1.6; 
+    color: #333; 
+    text-align: justify; 
+}
+
+.etiqueta-tag { 
+    background-color: #e9ecef; 
+    color: #495057; 
+    padding: 5px 10px; 
+    border-radius: 20px; 
+    margin-right: 10px; 
+    display: inline-block; 
+    font-size: 0.85em; 
+    margin-top: 15px; 
+}
+
+.comentarios-seccion-general {
+    max-width: 900px; 
+    margin: 30px auto; 
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.dejaropinion {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.valoraciones {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+
+.valoraciones textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    resize: vertical;
+    min-height: 80px;
+}
+
+.valoraciones .estrellas {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.valoraciones .estrellas img {
+    width: 30px; 
+    height: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+.valoraciones button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    align-self: flex-start;
+}
+
+.comentarios h3 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.comentario {
+    padding: 10px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+.comentario strong {
+    color: #007bff;
+}
+
+.comentario div {
+    margin-top: 5px;
+}
+.comentario img.estrella {
+    width: 16px; 
+    height: 16px;
+    vertical-align: middle;
+}
+img.estrella {
+    width: 25px ; 
+    height: 25px ;
+    max-width: 25px;
+    max-height: 25px ;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.valoraciones .estrellas img {
+    width: 30px; 
+    height: 30px;
+}

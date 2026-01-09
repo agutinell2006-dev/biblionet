@@ -1,0 +1,85 @@
+body{
+    margin: 25px;
+    font-family: roboto;
+    max-width: 1500px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+.textoregistro{
+    font-size: 5em;
+    text-align: center;
+}
+
+.datos_personales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dato {
+    display: flex;
+    flex-direction: center; 
+    justify-content: flex-start; 
+    margin-bottom: 15px;
+}
+
+.dato label {
+    font-size: 22px;
+    width: 200px; 
+    text-align: right; 
+    margin-right: 10px;
+}
+
+.formulario{
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid rgb(177, 137, 65);
+    padding: 3%;    
+    margin: 5% 20%;
+    width: 50%;
+    background-color: burlywood;
+    font-size: 30px;
+}
+
+.si{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#usuario, #contrasena, #email {
+    width: 200px;
+    height: 17px;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.enviar2{  
+    background-color: black;
+    color:white;
+    padding: 12px;
+    border-radius: 60px;
+    margin-top: 20px;
+}
+
+.terminos{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.servicios, .sexo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.servicios label, .sexo label {
+    margin-left: 5px;
+}
+
+.error{
+    color: red;
+    font-size: 0.5em;
+}

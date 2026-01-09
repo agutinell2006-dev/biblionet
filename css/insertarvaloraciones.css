@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    background: #f0f0f0;
+}
+
+input, textarea, button {
+    display: block;
+    width: 250px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.comentarios {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comentario {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.estrellas {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.estrella {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

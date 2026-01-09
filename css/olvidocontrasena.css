@@ -1,0 +1,88 @@
+.aceitunas nav{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    body{
+        margin: 25px;
+        font-family:roboto;
+        max-width: 1500px;
+        margin:auto;
+        background-color:blanchedalmond;
+    }
+    .textoregistro{
+        font-size: 5em;
+        text-align:center;
+    }
+    
+    .titulo{
+        margin: auto;
+    }
+    .datos_personales {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+       font-size: 100px;
+    }
+    .dato {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 15px;
+    }
+    .dato label {
+        font-size: 22px;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .formulario{
+        text-align: center;
+        border: 3px solid rgb(177, 137, 65);
+        padding: 3%;
+        margin: 5% 20%;
+        width: 50%;
+        background-color: burlywood;
+        font-size: 30px;
+    }
+    #usuario {
+        width: 200px;
+        height: 17px;
+        font-size: 14px;
+        padding: 8px;
+    }
+    #contrasena {
+        width: 200px;
+        height: 17px;
+        font-size: 14px;
+        padding: 8px;
+    }
+    .crear{
+        background-color: black;
+        color:white;
+        padding: 12px;
+        border-radius: 60px;
+        margin-top: 30px;
+    }
+    
+    .notienescuenta{
+       font-size: 20px;
+       margin-top: 2%;
+    }
+    .inputconojo {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .inputconojo input {
+        padding-right: 40px;
+    }
+    
+    .inputconojo img {
+        position: absolute;
+        right: 10px;
+        width: 40px;
+        cursor: pointer;
+    }
